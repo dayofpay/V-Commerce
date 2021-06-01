@@ -66,7 +66,7 @@ namespace V_Commerce
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            for (int i = 0; i <= 10.00; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 label2.Text = "Количка общо лв: " + totalcartprice + currency;
                 totalcartprice++;
@@ -98,5 +98,19 @@ namespace V_Commerce
             cart.ShowDialog(this);
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DialogResult result1 = MessageBox.Show("Сигурни ли сте, че искате да излезете от V-COMMERCE?",
+    "Потвърждение",
+    MessageBoxButtons.YesNo);
+            if (result1 == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else
+            {
+
+            }
+        }
     }
 }
