@@ -225,7 +225,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AfterAuth";
-            this.Text = "V-Commerce | 1.1 | https://v-devs.eu";
+            this.Text = "V-Commerce | 1.2 | https://v-devs.eu";
             this.Load += new System.EventHandler(this.AfterAuth_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

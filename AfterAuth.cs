@@ -28,6 +28,9 @@ namespace V_Commerce
         public static int totalcartprice = 0;
         private List<string> ItemList = new List<string>();
         public static string GetCart = "";
+        public static string ProductOne = "Лампа 128 СМ";
+        public static string ProductTwo = "Лампа 10 СМ";
+        public static string OrderStatus = "В процес на обработка";
 
         private void AfterAuth_Load(object sender, EventArgs e)
         {
@@ -76,11 +79,8 @@ namespace V_Commerce
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foreach (string s in ItemList)
-            {
-                var x = s.ToString();
-                MessageBox.Show(x);
-            }
+            MyCart myCart = new MyCart();
+            myCart.ShowDialog();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

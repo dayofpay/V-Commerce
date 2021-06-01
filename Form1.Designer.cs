@@ -123,7 +123,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "V-Commerce | 1.1 | https://v-devs.eu";
+            this.Text = "V-Commerce | 1.2 | https://v-devs.eu";
             this.ResumeLayout(false);
             this.PerformLayout();
 
