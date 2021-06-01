@@ -1,0 +1,11 @@
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\bin\Debug\V-Commerce.exe
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\bin\Debug\V-Commerce.pdb
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V-Commerce.csprojAssemblyReference.cache
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V_Commerce.Form1.resources
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V_Commerce.Properties.Resources.resources
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V-Commerce.csproj.GenerateResource.cache
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V-Commerce.csproj.CoreCompileInputs.cache
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V-Commerce.exe
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V-Commerce.pdb
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V_Commerce.AfterAuth.resources
+C:\Users\dayofpay\source\repos\V-Commerce\V-Commerce\obj\Debug\V_Commerce.CartSystem.resources
