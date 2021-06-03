@@ -10,19 +10,59 @@ namespace V_Commerce
 {
     public partial class MyCart : Form
     {
-        public MyCart() // В следващата версия
+
+        public MyCart()
         {
-            var convert = AfterAuth.totalcartprice.ToString();
             InitializeComponent();
-            int GetCartPrice = AfterAuth.totalcartprice;
-            string[] row = { AfterAuth.ProductOne, convert, AfterAuth.OrderStatus };
-            var listViewItem1 = new ListViewItem(row);
-            listView1.Items.Add(listViewItem1);
-            listView1.GridLines = true;
-            listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            label2.Text = "Обща стойност на поръчката";
+            listBox3.Items.Add(AfterAuth.totalcartprice + "ЛВ");
+            this.Controls.Add(listBox1);
+            this.Controls.Add(listBox2);
+            this.Controls.Add(listBox3);
+            foreach (string Items in AfterAuth.ItemList)
+            {
+                listBox1.Items.Add(Items);
+                Orders.Add(Items);
+                if (Items == "Лампа 142 СМ")
+                {
+                    listBox2.Items.Add("14.90 ЛВ");
+                }
+                if (Items == "Лампа 14 СМ")
+                {
+                    listBox2.Items.Add("10 ЛВ");
+                }
+                if (AfterAuth.totalcartprice == 0)
+                {
+                    listBox1.Items.Clear();
+                    listBox2.Items.Clear();
+                    listBox3.Items.Clear();
+                }
+            }
         }
+        public static List<string> Orders = new List<string>();
+        public static int CartStatus = 0;
+        public static string GetItems = "";
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MyCart_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
