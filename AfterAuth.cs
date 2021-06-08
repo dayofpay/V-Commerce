@@ -15,7 +15,7 @@ namespace V_Commerce
         public AfterAuth()
         {
             InitializeComponent();
-            label1.Text = "Welcome, " + Form1.GetUsername;
+            label1.Text = "Welcome, " + Login.GetUsername;
             string GetCartInfo = ItemList.ToString();
             this.Controls.Add(listBox1);
         }
@@ -45,7 +45,7 @@ namespace V_Commerce
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Form1.SetUsername);
+            MessageBox.Show(Login.SetUsername);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -130,6 +130,13 @@ namespace V_Commerce
             {
                 label2.Text = DefaultCart;
             }
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login S = new Login();
+            S.Show();
         }
     }
 }

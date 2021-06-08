@@ -85,11 +85,11 @@ namespace V_Commerce
             totalorders++;
             if (totalorders < 5)
             {
-                MessageBox.Show("Благодарим ви за поръчката, " + Form1.GetUsername + "\r\n Очаквано време, в което ще получите продукта: 3 ДНИ");
+                MessageBox.Show("Благодарим ви за поръчката, " + Login.GetUsername + "\r\n Очаквано време, в което ще получите продукта: 3 ДНИ");
             }
             else
             {
-                MessageBox.Show("Благодарим ви за поръчката, " + Form1.GetUsername + "\r\n Очаквано време, в което ще получите продукта: 7 ДНИ");
+                MessageBox.Show("Благодарим ви за поръчката, " + Login.GetUsername + "\r\n Очаквано време, в което ще получите продукта: 7 ДНИ");
             }
         }
     }

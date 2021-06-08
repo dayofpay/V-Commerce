@@ -128,7 +128,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MyCart";
-            this.Text = "V-Commerce | 1.3 | https://v-devs.eu";
+            this.Text = "V-Commerce | 1.4 | https://v-devs.eu";
             this.Load += new System.EventHandler(this.MyCart_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
