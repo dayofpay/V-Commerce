@@ -74,7 +74,7 @@ namespace V_Commerce
         private void button2_Click(object sender, EventArgs e)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3;
-            WebRequest request1 = WebRequest.Create("https://google.bg");
+            WebRequest request1 = WebRequest.Create("https://raw.githubusercontent.com/dayofpay/V-Commerce/main/latestversion");
             request1.Credentials = CredentialCache.DefaultCredentials;
             WebResponse response1 = request1.GetResponse();
             Stream dataStream1 = response1.GetResponseStream();
